@@ -11,13 +11,13 @@ public class RobotSquare {
     public static void main(String[] args) throws Exception {
  
     	// 1. Make a new Robot
-
+    	Robot r=new Robot()
 
         // 3. Put the robot's pen down
-
+    	r.penDown();
 
         // 6. Make the robot move as fast as possible
-
+    	r.setSpeed(20);
 
         // 5. Do everything below here 4 times
 
